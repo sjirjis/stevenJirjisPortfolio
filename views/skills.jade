@@ -1,7 +1,22 @@
 extends layout
 
 block content
-  h2 Skills!
 
-  canvas#doughnutChart(height='400' width='400')
-
+  .container
+    .row
+      .col-md-12.text-center
+        h2 #{title}
+        <br>  
+  
+  .container
+    .row
+      .col-md-12.text-center
+      h4 a few of the core languages in my experience
+      canvas#doughnutChart(height='400' width='1000')
+  br
+  br
+  .container
+    .row
+      .col-md-12.text-center
+      h4 additional languages &amp; technologies I've dabbled with
+      canvas#barChart(height='400' width='1000')

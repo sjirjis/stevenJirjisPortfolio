@@ -1,19 +1,24 @@
 extends layout
 
 block content
-  h2 #{title}
-  h3 #{message}
-  address
-    | One Microsoft Way
-    br
-    | Redmond, WA 98052-6399
-    br
-    abbr(title='Phone') P: 
-    | 425.555.0100
+  .container
+    .row
+      .col-md-12.text-center
+        h2 #{title}
+        h3 #{message}
 
   address
-    strong Support: 
-    a(href='mailto:Support@example.com') Support@example.com
+    | I live in sunny San Diego, CA
     br
-    strong Marketing: 
-    a(href='mailto:Marketing@example.com') Marketing@example.com
+    br
+    strong Email: 
+    a(href='mailto:sjirjis@gmail.com') sjirjis@gmail.com
+    br
+    strong linkedIn: 
+    a(href='https://www.linkedin.com/in/stevenjirjis/' target='_blank') https://www.linkedin.com/in/stevenjirjis/
+    br
+    strong Github:
+    a(href='https://github.com/sjirjis' target='_blank') https://github.com/sjirjis
+    br
+    strong Stack Overflow:
+    a(href='https://stackoverflow.com/users/4329970/steven-jirjis' target='_blank') https://stackoverflow.com/users/4329970/steven-jirjis
