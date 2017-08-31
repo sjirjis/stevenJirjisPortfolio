@@ -1,0 +1,14 @@
+{
+  "name": "steven-jirjis-portfolio",
+  "version": "0.0.0",
+  "description": "StevenJirjisPortfolio",
+  "main": "app.js",
+  "author": {
+    "name": "School"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

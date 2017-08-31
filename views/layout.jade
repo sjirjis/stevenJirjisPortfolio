@@ -1,0 +1,39 @@
+﻿doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title #{title}
+    link(rel='stylesheet', type='text/css', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Pacifico')
+    script(src='/javascripts/modernizr-2.6.2.js')
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') steven jirjis
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/portfolio') PORTFOLIO
+            li
+              a(href='/skills') SKILLS
+            li
+              a(href='/contact') GET IN TOUCH
+
+    .container.body-content
+      block content
+      hr
+      footer
+        p.footer-text building software is an expression of creativity crossed with solving meaningful problems. <br> thanks for visiting me.
+
+    script(src='/javascripts/jquery-1.10.2.js')
+    script(src='/javascripts/bootstrap.js')
+    script(src='/javascripts/respond.js')
+
+    block scripts
