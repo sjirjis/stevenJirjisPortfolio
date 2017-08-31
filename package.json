@@ -1,14 +1,23 @@
 {
   "name": "steven-jirjis-portfolio",
-  "version": "0.0.0",
-  "description": "StevenJirjisPortfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio of projects",
   "main": "app.js",
-  "author": {
-    "name": "School"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjirjis/stevenJirjisPortfolio.git"
+  },
+  "author": "Steven Jirjis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjirjis/stevenJirjisPortfolio/issues"
+  },
+  "homepage": "https://github.com/sjirjis/stevenJirjisPortfolio#readme",
   "dependencies": {
-    "express": "3.4.4",
-    "jade": "*",
-    "stylus": "*"
+    "express": "^4.15.4",
+    "jade": "^1.11.0"
   }
 }
