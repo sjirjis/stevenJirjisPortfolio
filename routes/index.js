@@ -10,3 +10,7 @@ exports.index = function (req, res) {
 exports.contact = function (req, res) {
     res.render('contact', { title: 'my contact', year: new Date().getFullYear(), message: 'Your contact page' });
 };
+
+exports.skills = function (req, res) {
+	res.render('skills', { title: 'skills', year: new Date().getFullYear() });
+};
