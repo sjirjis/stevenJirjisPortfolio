@@ -1,0 +1,38 @@
+extends layout
+
+block content
+
+	.container
+		.row
+			.col-md-12.text-center
+				h2 under construction
+
+	.container.tileContainer
+		.row
+			div.col-lg-3.col-md-4.col-sm-6.col-xs-12.appTile-container
+				div.appTile
+					p put the image tage here instead of this p tag
+
+						div.appTile-innerContainer
+							div.appIntro
+								h4.appTile-productionName app title
+
+								p.appTile-presenterName app short description
+
+								p app full description
+
+						div.appTile-footer
+							div.appTile-productionLinks-container
+								div.appTile-productionLinks-link
+									button(type="button").btn.appTile-btn.appTile-btn--ticketPrice play button
+
+
+							div.appTile-productionLinks-link
+								a(href="/wowfestival2017/productions/super-night-shot" target="_self").btn.font--white.appTile-btn.appTile-btn--link.appTile-btn--learnMore LEARN MORE (probably don't need)
+
+							div.appTile-productionLinks-link.appTile-btn--buyTickets-listitem
+								a(href="http://wowfestival.lajollaplayhouse.org/single/psDetail.aspx?psn=13723 " target="_self ").btn.font--white.appTile-btn.appTile-btn--link.appTile-btn--buyTickets extra button (probably don't need)
+
+						div.appTile-greyFill
+						p.appTile-footer-performanceType(strong) Languages used:
+						p.appTile-footer-performanceType(strong) technology focus
