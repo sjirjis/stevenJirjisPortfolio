@@ -49,3 +49,29 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
   display: none;
 }
+
+.appTile-container {
+  padding: 15px;
+}
+
+.appTile {
+  border: solid thin #d34615;
+}
+
+.appTile-image {
+  width: 100%;
+}
+
+.appTile-body, .appTile-footer {
+  padding: 2%;
+}
+
+.appTile-title {
+  margin-top: 5px;
+}
+
+.appTile-footer-label {
+  background-color: #337ab7;
+  margin: 1%;
+  display: inline-block;
+}
