@@ -68,6 +68,7 @@ input[type="checkbox"].input-validation-error {
 
 .appTile-title {
   margin-top: 5px;
+  padding-bottom: 5px;
 }
 
 .appTile-footer-label {
