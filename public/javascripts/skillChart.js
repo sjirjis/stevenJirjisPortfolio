@@ -15,25 +15,25 @@ var doughnut = new Chart(doughnutChart, {
             'NodeJS',
             'jQuery',
             'CSS',
-            'HTML'    
+            'HTML'
         ],
         datasets: [{
             label: 'Core Skill Set',
             backgroundColor: [
-                '#17deee', 
-                '#FFD700', 
-                '#ff4162', 
-                '#10aeb2', 
+                '#17deee',
+                '#FFD700',
+                '#ff4162',
+                '#10aeb2',
                 '#ecf284',
                 '#daa520'
         ],
             borderColor: '#4C4C4C',
             data: [
-                50, 
-                20, 
-                15, 
+                50,
+                20,
                 15,
-                10, 
+                15,
+                10,
                 10
             ],
         }]
@@ -85,11 +85,11 @@ var bar = new Chart(barChart, {
         ],
             borderColor: '#4C4C4C',
             data: [
-                3, 
-                3, 
-                2, 
+                3,
+                3,
                 2,
-                1, 
+                2,
+                1,
                 5,
                 3,
                 5,
